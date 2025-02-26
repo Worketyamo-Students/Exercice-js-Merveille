@@ -5,11 +5,12 @@ const age= prompt("entrer l'age de l'utilisateur")
 console.log("bienvenue a mr/mme ",nom,"ayant",age,"ans")
 
 //exercice2
-let coutUnitaire,nbre;
+let coutUnitaire
+let nbre;
 function coutInscription(coutUnitaire,nbre){
     let total;
     total = coutUnitaire * nbre;
-    return total
+    return total;
 }
 console.log(coutInscription(25000,10));
 
@@ -33,8 +34,8 @@ let n2=parseFloat(note2)
 let n3=parseFloat(note3)
 
 
-let somme = n1 + n2+ n3,
- moy= somme / 3;
+let somme = n1 + n2+ n3
+ let moy= somme / 3;
 console.log( "la moyenne est:", moy)
 
 //exercice5
@@ -53,7 +54,7 @@ console.log(table)
 
 //exercice7
 let nouveau=prompt("entrer votre nom") 
-   alert("bienvenue a vous ", nouveau )
+   alert("bienvenue a vous ",nouveau )
 console.log("bienvenue a ",nouveau)
 
 
