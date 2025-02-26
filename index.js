@@ -52,23 +52,8 @@ table.push("dora")
 console.log(table)
 
 //exercice7
-let nouveau=prompt("entrer votre nom")
-
-// function afficherAlerte() {
-//     let alerte = document.getElementById('alerte');
-//     let message = document.getElementById('alerteMessage');
-    
+let nouveau=prompt("entrer votre nom") 
    alert("bienvenue a vous ", nouveau )
-    // message.innerText = "Bienvennue!",nouveau; 
-    // // Afficher la boîte d'alerte
-    // alerte.style.display = 'block';
-//}
-
-// function fermerAlerte() {
-//     let alerte = document.getElementById('alerte');
-//     alerte.style.display = 'none';
-// }
-
 console.log("bienvenue a ",nouveau)
 
 
